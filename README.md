@@ -1,6 +1,6 @@
 # grunt-esrijso-modulelist
 
-Creates a Module List for the [ArcGIS API for JavaScript Web Optimizer](http://jso.arcgis.com/help/).  Searches html and js files in your project to find references to Dojo AMD modules that match andy of the following patterns:
+Creates a Module List for the [ArcGIS API for JavaScript Web Optimizer](http://jso.arcgis.com/help/).  Searches html and js files in your project to find references to Dojo AMD modules that match any of the following patterns:
 
 ```
 esri/
