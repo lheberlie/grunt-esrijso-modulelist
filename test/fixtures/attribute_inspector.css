@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#mapDiv {
+    margin: 0;
+    padding: 0;
+}
+
+#detailPane {
+    height: 20px;
+    color: #570026;
+    font-size: 12pt;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.dj_ie .infowindow .window .top .right .user .content {
+    position: relative;
+}
+
+.dj_ie .simpleInfoWindow .content {
+    position: relative;
+}
+
+.esriAttributeInspector {
+    height: 100px;
+}
+
+.esriAttributeInspector .atiLayerName {
+    display: none;
+}
+
+.saveButton {
+    padding-left: 45px;
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+}
