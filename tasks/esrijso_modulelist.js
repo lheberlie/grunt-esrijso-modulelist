@@ -36,7 +36,7 @@ module.exports = function (grunt) {
 
         // RegEx patterns to match Dojo and esrijs AMD modules
         var patternMatchModule = /"(esri|dojo|dojox|dijit|xstyle|put-selector|dgrid)\/{1,}([\/a-zA-Z0-9_!\-]+)"/m;
-        var patternMatchModuleAll = /"(esri|dojo|dojox|dijit|xstyle|put-selector|dgrid)\/{1,}([\/a-zA-Z0-9_\-!]+)"/g;
+        var patternMatchModuleAll = /"(esri|dojo|dojox|dijit|xstyle|put-selector|dgrid)\/{1,}([\/a-zA-Z0-9_\-]+)"/g;
 
         // Iterate over all specified file groups.
         this.files.forEach(function (file) {
